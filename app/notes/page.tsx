@@ -25,7 +25,7 @@ export default async function NotesPage() {
       {/* ノート作成フォーム */}
       <form action={createNoteAction} className="mb-8 space-y-4">
         <Fieldset className="space-y-4">
-          <Legend className="text-xl font-semibold">Notes</Legend>
+          <Legend className="text-xl font-semibold">vercel-with-api-workers - Notes</Legend>
           <Field>
             <Input
               className="w-full rounded block border text-base pl-3 py-1"
