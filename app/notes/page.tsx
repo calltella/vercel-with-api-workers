@@ -8,7 +8,7 @@ import { SectionCard } from "@/src/features/user/components/SectionCard";
 import { PrimaryButton } from "@/src/features/user/components/Buttons";
 import { Field, Fieldset, Input, Legend, Textarea } from '@headlessui/react';
 
-export const dynamic = "force-dynamic";
+//export const dynamic = "force-dynamic";
 // Generating static pages → /notes をプリレンダリング → その中で fetch 実行 → env が undefined → クラッシュ
 
 /**
@@ -18,7 +18,7 @@ export const dynamic = "force-dynamic";
 
 export default async function NotesPage() {
   const allNotes = await getNotesAPI();
-  console.log(`APIからのノート: ${JSON.stringify(allNotes)}`);
+  //console.log(`APIからのノート: ${JSON.stringify(allNotes)}`);
 
   return (
     <main className="mx-auto max-w-3xl p-6">
