@@ -36,3 +36,10 @@ export type DraftAplineListItems = {
   occurrenceDate: string | null;
   updatedAt: string;
 }
+
+export type AplineTenpoListItems = {
+  id: number;
+  tencd: number;
+  pulldownName: string;
+  registName: string;
+};
